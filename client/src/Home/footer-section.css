@@ -1,0 +1,23 @@
+footer {
+  margin-top: 40px;
+  float: left;
+  width: 100%;
+  background: #fafafa;
+  padding: 40px;
+  position: relative;
+}
+
+.description {
+  text-align: left;
+  color: #999;
+  font-size: 14px;
+  width: 50%;
+}
+
+.powered-by-stripe {
+  opacity: .5;
+  width: 120px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}

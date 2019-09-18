@@ -1,0 +1,45 @@
+.free-input-container {
+  border: 1px solid #DDD;
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 3px;
+  display: flex;
+  padding: 2px;
+}
+
+.free-input-container.focused {
+  border: 1px solid #066FFF;
+}
+
+.free-input {
+  border-radius: 3px;
+  border: none;
+  padding: 8px;
+  font-size: 12px;
+  flex: 1;
+  outline: none;
+}
+
+.free-btn {
+  border-radius: 3px;
+}
+
+.title-section {
+  padding-bottom: 60px;
+}
+
+.email-sent {
+  color: #4CD139;
+}
+
+.email-sent.error {
+  color: #e23349;
+}
+
+.email-sent.error button {
+  margin-top: 10px;
+}
+
+.loading img {
+  width: 70px;
+}

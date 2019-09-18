@@ -1,0 +1,95 @@
+.full-preview-section {
+  float: left;
+  width: 100%;
+}
+
+h2 {
+  width: 100%;
+  text-transform: capitalize;
+}
+
+.icon {
+  width: 68px;
+  margin: 10px;
+}
+
+.categories-section {
+  width: 220px;
+  background-color: #FFF;
+  position: sticky;
+  top: 120px;
+  float: left;
+  overflow: scroll;
+  text-align: center;
+  z-index: 99;
+  height: calc(100vh - 120px);
+}
+
+.categories-section h2 {
+  text-align: left;
+}
+
+.icon-type-section {
+  width: 100%;
+  background-color: #FFF;
+  border-top: 1px solid #EEE;
+  border-bottom: 1px solid #EEE;
+  position: sticky;
+  top: 59px;
+  float: left;
+  text-align: center;
+  z-index: 99;
+}
+
+.icon-type {
+  cursor: pointer;
+  display: inline-block;
+  border-bottom: 3px solid transparent;
+  font-size: 14px;
+  padding: 20px;
+}
+
+.icon-type.selected {
+  cursor: default;
+  font-weight: 600;
+  border-bottom: 3px solid #056FFF;
+}
+
+.category {
+  color: #999;
+  cursor: pointer;
+  padding: 5px;
+  text-align: left;
+}
+
+.category:hover {
+  color: #000;
+}
+
+.icon-section-wrapper {
+  width: calc(100% - 220px);
+  float: left;
+}
+
+button.download {
+  font-size: 16px;
+  color: #FFF;
+  font-weight: 500;
+  letter-spacing: -1px;
+  padding: 12px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 10px 10px 10px;
+  border: 1px solid transparent;
+}
+
+button.download-free {
+  color: #056FFF;
+  background-color: transparent;
+  border: 1px solid #056FFF;
+}
+
+.button-container {
+  text-align: center;
+  margin-bottom: 40px;
+}

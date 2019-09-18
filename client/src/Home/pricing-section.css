@@ -1,0 +1,72 @@
+/* Pricing Section */
+.pricing-section {
+  text-align: left;
+}
+
+.license {
+  float: left;
+  width: 25%;
+  padding: 30px;
+  border-radius: 5px;
+  position: relative;
+  background-color: #FFF;
+}
+
+.license-regular {
+  z-index: 10;
+  border: 1px solid #EEE;
+}
+
+.most-popular {
+  text-align: center;
+  position: absolute;
+  top: -1px;
+  width: calc(100% + 2px);
+  left: -1px;
+  background-color: #056FFF;
+  color: #FFF;
+  border-radius: 5px 5px 0 0;
+  padding: 5px 0;
+  border-bottom: 1px solid rgba(0,0,0,.2);
+}
+
+h5 {
+  text-align: left;
+  font-size: 20px;
+  color: #000;
+  font-weight: 500;
+  letter-spacing: -1px;
+  margin-bottom: 5px;
+}
+
+.license p {
+  text-align: left;
+  color: #999;
+}
+
+.license button {
+  margin: 20px 0;
+}
+
+.license-features strong {
+  font-weight: 500;
+}
+
+.license-features p {
+  margin: 15px 0;
+}
+.license-features p.blue {
+  color: #066FFF;
+}
+
+.license-price {
+  text-align: left;
+  font-size: 15px;
+  font-weight: bold;
+  color: #999;
+}
+
+.license-price strong {
+  font-size: 28px;
+  color: #333;
+}

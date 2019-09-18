@@ -1,0 +1,87 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid #f7f7f7;
+  box-shadow: 0 4px 60px 12px rgba(0, 0, 0, 0.01);
+  background-color: #FFF;
+  height: 60px;
+  z-index: 999;
+}
+
+ul a {
+  font-size: 14px;
+  color: #858585;
+  float: left;
+  margin-left: 15px;
+  padding: 10px;
+}
+
+ul a:hover {
+  color: #056FFF;
+}
+
+ul a:first-of-type {
+  margin-left: 0;
+}
+
+.link-section {
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+
+/* Buy Section */
+.buy-section {
+  position: absolute;
+  right: 0;
+  top: 12px;
+}
+
+.buy-promo {
+  float: left;
+  text-align: right;
+  padding-right: 15px;
+  padding-top: 4px;
+}
+
+.buy-promo-name {
+  font-size: 10px;
+  font-weight: 600;
+  color: #A5A5A5;
+  text-transform: uppercase;
+}
+
+.buy-promo-price {
+  font-size: 13px;
+  color: #000000;
+}
+
+button.buy-now {
+  font-weight: bold;
+  letter-spacing: -1px;
+  padding: 0 18px;
+  height: 32px;
+  font-size: 11px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  background: #056FFF;
+  border: 0;
+  border-radius: 2px;
+  transition: color 0.15s cubic-bezier(0.4, 0, 0.2, 1),
+              background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1),
+              border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.logo {
+  width: 32px;
+  padding: 6px;
+  cursor: pointer;
+}
+
+header .container {
+  text-align: center;
+}
